@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ed1d6082-f4ce-4d9d-8918-b6db7feb978a",
+		"_postman_id": "1bea91b8-64b9-4675-82e8-20b38fa70de0",
 		"name": "Dice-assignment",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -49,6 +49,37 @@
 						"RapidAPI",
 						"summary",
 						"India"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/rapid/token",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Rapid12\",\r\n    \"password\":\"m0n9b8v7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/rapid/token",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rapid",
+						"token"
 					]
 				}
 			},
